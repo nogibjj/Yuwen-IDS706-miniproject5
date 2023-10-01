@@ -1,4 +1,5 @@
-from main import create_connection, create_table, insert_user, get_user_by_username, update_user_email, delete_user
+from main import create_connection, create_table, insert_user
+from main import get_user_by_username, update_user_email, delete_user
 
 def test_insert_user():
     database_file = "test_database.db"
