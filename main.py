@@ -27,7 +27,8 @@ def create_table(conn):
 def insert_user(conn, username, email):
     try:
         cursor = conn.cursor()
-        cursor.execute("INSERT INTO users (username, email) VALUES (?, ?)", (username, email))
+        cursor.execute("INSERT INTO users (username, email) VALUES (?, ?)",
+                        (username, email))
         conn.commit()
     except sqlite3.Error as e:
         print(e)
@@ -45,7 +46,8 @@ def get_user_by_username(conn, username):
 def update_user_email(conn, username, new_email):
     try:
         cursor = conn.cursor()
-        cursor.execute("UPDATE users SET email=? WHERE username=?", (new_email, username))
+        cursor.execute("UPDATE users SET email=? WHERE username=?",
+                        (new_email, username))
         conn.commit()
     except sqlite3.Error as e:
         print(e)
