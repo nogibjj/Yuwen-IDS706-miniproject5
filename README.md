@@ -2,7 +2,7 @@
 
 [![cicd](https://github.com/nogibjj/Yuwen-IDS706-miniproject5/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Yuwen-IDS706-miniproject5/actions/workflows/cicd.yml)  
 
-This is a repo template for course 706_Data_Engineering Week 5 Mini Project. The objective of this was to create a Python script that interacts with a SQL database.
+This is a repo template for course 706_Data_Engineering Week 5 Mini Project. This objective was to create a Python script that interacts with an SQL database.
 
 # Purpose
 - Create a SQL database with Python
@@ -88,6 +88,10 @@ def delete_user(conn, username):
 
 
 All the functions are tested in test_main.py
+
+### Two Query Function
+1. select all users from the database
+2. choose the person with shortest email
 
 ### result:
 Result Running main.py:
