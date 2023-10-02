@@ -107,6 +107,9 @@ if __name__ == "__main__":
         delete_user(connection, "JohnDoe")
 
         # user with shortest email
+        insert_user(connection, "Apple", "a@example.com")
+        insert_user(connection, "Banana", "Banana@example.com")
+        insert_user(connection, "Orange", "ora@example.com")
         person = select_person_with_shortest_email(connection)
 
         if person:
@@ -119,7 +122,7 @@ if __name__ == "__main__":
 
         # select all users
         users = select_all_users(connection)
-        
+
         for user in users:
             print("User ID:", user[0])
             print("Username:", user[1])
