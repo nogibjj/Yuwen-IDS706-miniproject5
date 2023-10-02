@@ -1,6 +1,6 @@
 # Yuwen-Cai-week5-mini-repo  
 
-[![cicd](https://github.com/nogibjj/Yuwen-IDS706-miniproject5/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Yuwen-IDS706-miniproject5/actions/workflows/cicd.yml)  
+
 
 This is a repo template for course 706_Data_Engineering Week 5 Mini Project. This objective was to create a Python script that interacts with an SQL database.
 
